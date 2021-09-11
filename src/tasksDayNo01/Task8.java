@@ -4,7 +4,7 @@ import static java.lang.Math.sqrt;
 
 public class Task8 {
     public static void main(String[] args) {
-        int maxRange = 1000;
+        int maxRange = 1000000;
         for (int i = 0; i<= maxRange; i++){
             if(isTheNumberPrime(i)){
                 System.out.println(i);
