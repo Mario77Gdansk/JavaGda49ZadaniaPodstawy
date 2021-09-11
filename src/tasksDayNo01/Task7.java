@@ -6,10 +6,6 @@ public class Task7 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String decision;
-//        float a = scanner.nextFloat();
-//        char mathOperator = getTheSign();
-//        float b = scanner.nextFloat();
-
         do {
             System.out.println("Please insert first digit: ");
             float firstDigit = scanner.nextFloat();
@@ -24,17 +20,10 @@ public class Task7 {
 
 
             System.out.println("New calculation or STOP");
+            scanner.nextLine();
             decision = scanner.nextLine();
-            
-            } while ("STOP".equalsIgnoreCase(decision));
 
-//        swich(mathOperator = '+');2345
-//        {
-//            System.out.println(a&" + "b&" = "a+b);
-//        }
-//
-//
-//        System.out.println();
+            } while ("STOP".equalsIgnoreCase(decision));
     }
 
     private static float calculate(float firstDigit, float secondDigit, String operator) {
