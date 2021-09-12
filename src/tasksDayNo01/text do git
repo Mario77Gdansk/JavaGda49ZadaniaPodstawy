@@ -1,4 +1,4 @@
 git status
 git add src
 git commit -m "Task nr 234 lub inny opis"
-git push origin main
+git push origin maingit sta
